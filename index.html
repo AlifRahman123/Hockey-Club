@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&display=swap" rel="stylesheet">
     <style>
-        .font-manrope {
+        body {
             font-family: 'Manrope', sans-serif;
         }
     </style>
@@ -21,7 +21,7 @@
     <script src="https://kit.fontawesome.com/68b555605b.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="font-'Manrope">
+<body>
     <header>
         <!-- Banner section -->
         <div class="carousel lg:max-h-[80vh] lg:m-20">
@@ -264,25 +264,25 @@
             </div>
         </section>
         <!-- Get in touch section -->
-        <div class="mt-36" , style="display: none;">
+        <div class="mt-36">
             <h3 class="text-center text-6xl text-[#131318] font-bold">Get In Touch</h3>
             <p class="text-center text-xl mt-6">For more details please contact us</p>
         </div>
         <section>
             <!-- Contact info section -->
-            <div class=" mt-20 flex">
+            <div class="mt-20 flex lg:flex-row flex-col">
                 <div class="border border-dotted rounded-sm p-12 w-2/6">
-                    <div class="border border-2 w-[374px] h-[216px] mb-6 border rounded-lg bg-[#bced6d1A]">
+                    <div class="pl-8 pt-8 border border-2 w-[80vw] lg:w-[374px] h-[216px] mb-6 border rounded-lg bg-[#bced6d1A]">
                         <img src="Images/Group 1171275317.png" alt="">
                         <p>Phone Number :</p>
                         <p class="text-[#131318] font-bold text-[18px]">(+62) 123-321-543</p>
                     </div>
-                    <div class="border border-2 w-[374px] h-[216px] mb-6 border rounded-lg bg-[#fddd5f1A]">
+                    <div class="pl-8 pt-8 border border-2 w-[80vw] lg:w-[374px] h-[216px] mb-6 border rounded-lg bg-[#fddd5f1A]">
                         <img src="Images/Group 1171275318.png" alt="">
                         <p>Email : </p>
                         <p class="text-[#131318] font-bold text-[18px]">hockeys@support.com</p>
                     </div>
-                    <div class="border border-2 w-[374px] h-[184px] mb-6 border rounded-lg bg-[#629cf31A]">
+                    <div class="pl-8 pt-8 border border-2 w-[80vw] lg:w-[374px] h-[184px] mb-6 border rounded-lg bg-[#629cf31A]">
                         <img src="Images/Group 1171275321.png" alt="">
                         <p>Location : </p>
                         <p class="text-[#131318] font-bold text-[18px]">152/1 Mohakhali Wireless Gate</p>
@@ -290,35 +290,35 @@
                 </div>
                 <!-- Input section -->
                 <div class="flex flex-col p-12 w-full">
-                    <div class="flex p-12 w-full">
-                        <div class="flex flex-col h-max w-1/2">
-                            <div class="">
-                                <h1>Your Name</h1>
-                                <input class="w-full" type="text" placeholder="Please enter your name">
+                    <div class="flex gap-6 w-full mb-6 flex-col lg:flex-row">
+                        <div class="flex flex-col h-max w-full lg:w-1/2">
+                            <div class="mb-6">
+                                <h1 class="font-bold text-xl">Your Name</h1>
+                                <input class="mt-2 w-full h-16 bg-[#13131808] p-5 rounded-xl" type="text" placeholder="Please enter your name">
                             </div>
-                            <div class="">
-                                <h1>Your Email</h1>
-                                <input class="w-full" type="text" placeholder="Please enter your email">
+                            <div>
+                                <h1 class="font-bold text-xl">Your Email</h1>
+                                <input class="mt-2 w-full h-16 bg-[#13131808] p-5 rounded-xl" type="text" placeholder="Please enter your email">
                             </div>
                         </div>
-                        <div class="flex flex-col  h-max w-1/2">
-                            <div>
-                                <h1>Subject</h1>
-                                <input class="w-full" type="text" placeholder="Please enter your subject">
+                        <div class="flex flex-col h-max w-full lg:w-1/2">
+                            <div class="mb-6">
+                                <h1 class="font-bold text-xl">Subject</h1>
+                                <input class="mt-2 w-full h-16 bg-[#13131808] p-5 rounded-xl" type="text" placeholder="Please enter your subject">
                             </div>
                             <div>
-                                <h1>Phone Number</h1>
-                                <input class="w-full" type="text" placeholder="Please enter your Phone number">
+                                <h1 class="font-bold text-xl">Phone Number</h1>
+                                <input class="mt-2 w-full h-16 bg-[#13131808] p-5 rounded-xl" type="text" placeholder="Please enter your Phone number">
                             </div>
                         </div>
                     </div>
-                    <div class="bg-black">
-                        <h1>write a message</h1>
-                        <textarea placeholder="Write your message"></textarea>
-                        <button>Send Message</button>
-
+                    <div class="flex flex-col w-full">
+                        <h1 class="font-bold text-xl">Write a message</h1>
+                        <textarea class="mt-2 h-[370px] bg-[#13131808] p-5 rounded-xl" placeholder="Write your message"></textarea>
+                        <button class="bg-[#FF4240] text-white rounded-xl font-bold text-xl mt-5">Send Message</button>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
         <section class="text-center bg-[#0d0d1208]">
@@ -334,18 +334,19 @@
 
         </section>
     </main>
+    <!-- Footer section -->
     <footer class="footer p-10 bg-black text-base-content mt-10">
         <aside>
-           
+
             <h2 class="font-bold text-xl text-white">Get In Touch</h2>
-            <p class="text-white">Trusted popular and reliable since 1992</p>
+            <p class="text-[#FFFFFF99]">Trusted popular and reliable since 1992</p>
             <div class="flex justify-between">
                 <i class="text-[#ff4241] fa-regular fa-envelope"></i>
-                <p class="pl-2 text-white">hockeys@support.com</p>
+                <p class="pl-2 text-[#FFFFFF99]">hockeys@support.com</p>
             </div>
             <div class="flex">
                 <i class="text-[#ff4241] fa-solid fa-phone"></i>
-                <p class="pl-2 text-white">(+62) 123-321-543</p>
+                <p class="pl-2 text-[#FFFFFF99]">(+62) 123-321-543</p>
             </div>
         </aside>
         <nav>
